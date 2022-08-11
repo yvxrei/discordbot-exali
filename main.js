@@ -38,8 +38,8 @@ const generateImage = require ("./generateImage")
     client.on("guildMemberAdd", async (member) => {
         const img = await generateImage(member)
         member.guild.channels.cache.get(welcomeChannelId).send({
-            content: `<@${member.id}> Welcome to the server!`,
-            files: [img]
+            content: `<@${member.id}> Welcome to the server!`//,
+            //files: [img]
         })
     })
 
