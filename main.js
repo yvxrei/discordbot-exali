@@ -25,5 +25,10 @@ const TOKEN = "MTAwNjk0MDc4ODk2NzYwNDMxNA.GoZj92.N7T8nN0zDLq_J_KqNX7bbzA2EfxwTPn
             message.reply("fuzzy gatinho meow :3")
         }
     })
+    client.on("messageCreate", (message) => {
+        if (message.content == "fart"){
+            message.reply("https://c.tenor.com/bQaOSEg8giUAAAAC/fire-ass-fire-butt.gif")
+        }
+    })
 
     client.login(TOKEN)
