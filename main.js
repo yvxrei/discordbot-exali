@@ -42,5 +42,7 @@ const generateImage = require ("./generateImage")
             files: [img]
         })
     })
-    
-    client.login(process.env.TOKEN)
+
+    TOKEN="MTAwNjk0MDc4ODk2NzYwNDMxNA.GRZ5qN.9y1JmitN4uBBkV6MKJh5cg1LO_0qw3S138vU8Q"
+    client.login(TOKEN)
+   // client.login(process.env.TOKEN)
